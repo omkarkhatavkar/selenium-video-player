@@ -1,8 +1,10 @@
-# Selenium Test Browser Video Recording Viewer
+## Selenium Test Browser Video Recording Viewer
 
 This repository contains a web application that allows users to view recorded video sessions of Selenium test browser executions. The application is designed to work with Selenium test setups that record browser interactions during test executions and store them as video files.
+### Screenshot 
+![image](https://github.com/omkarkhatavkar/selenium-video-player/assets/3190629/40502b8d-1377-4927-a468-b5e83a214afa)
 
-## Key Features
+### Key Features
 
 - **Video Search:** Users can enter a session ID or test case identifier to search for specific recorded video sessions. The application will retrieve and display the corresponding video, if available.
 
@@ -14,11 +16,11 @@ This repository contains a web application that allows users to view recorded vi
 
 - **Responsive Design:** The user interface is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.
 
-## How it Works
+### How it Works
 
 The application uses JavaScript to interact with the server to fetch video sessions based on the provided session ID. It utilizes XMLHttpRequest to check if the requested video exists on the server. If the video is found, it is loaded into the video player for playback. If not found, an error message is displayed to the user.
 
-## Technologies Used
+### Technologies Used
 
 - HTML, CSS, JavaScript: Front-end development to create the user interface and handle user interactions.
 
@@ -28,7 +30,7 @@ The application uses JavaScript to interact with the server to fetch video sessi
 
 - Docker Compose: The application is designed to work with Docker Compose, which facilitates the setup and deployment of the web application and its dependencies. We are using the Docker Compose file from the [SeleniumHQ/docker-selenium repository](https://github.com/SeleniumHQ/docker-selenium/blob/trunk/docker-compose-v3-dynamic-grid.yml), which needs some modification.
 
-## Getting Started
+### Getting Started
 
 To set up the project locally and run the web application, follow these steps:
 
@@ -52,11 +54,11 @@ To set up the project locally and run the web application, follow these steps:
 
    - The recorded video sessions will be saved to the specified location within the Docker container, `/opt/selenium/assets`, which is mapped to the host machine's `/var/www/html/videos` directory.
 
-## Contributing
+### Contributing
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
