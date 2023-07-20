@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Search</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>Video Search</h1>
+    <div class="search-container">
+      <input type="text" id="uuidInput" class="search-input" placeholder="Enter Session ID">
+      <button onclick="searchVideos()" class="search-button">Search</button>
+    </div>
+    <div class="video-player">
+      <video id="videoPlayer" width="640" height="480" controls></video>
+    </div>
+    <div id="error" class="error-message"></div>
+    <a id="downloadButton" class="download-button" download>Download Video</a>
+    <script src="scripts.js"></script>
+  </body>
+</html>
+
