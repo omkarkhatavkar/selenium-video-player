@@ -44,7 +44,7 @@ To set up the project locally and run the web application, follow these steps:
 
    - Make sure you have Docker and Docker Compose installed on your machine.
 
-   - Edit the `docker-compose.yml` file to adjust any necessary configurations from the [SeleniumHQ/docker-selenium repository](https://github.com/SeleniumHQ/docker-selenium/blob/trunk/docker-compose-v3-dynamic-grid.yml). 
+   - Edit the `docker-compose-v3-dynamic-grid.yml` file to adjust any necessary configurations from the [SeleniumHQ/docker-selenium repository](https://github.com/SeleniumHQ/docker-selenium/blob/trunk/docker-compose-v3-dynamic-grid.yml). 
 
    - Run the following command to start the application and associated services:
 
