@@ -36,7 +36,7 @@ To set up the project locally and run the web application, follow these steps:
 
 1. Clone this repository to your local machine.
 
-2. Open the `index.html` file in your web browser to access the application.
+2. Open the `search.html` file in your web browser to access the application.
 
 3. Ensure you have Apache (HTTPD) installed and properly configured on your server. The recorded video sessions will be served from the directory specified in the Apache configuration.
 
